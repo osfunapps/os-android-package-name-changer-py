@@ -1,8 +1,8 @@
 import os
 import shutil
 import xml.etree.ElementTree as ET
-import ostools.FileHandler as fh
-import ostools.LoggerHandler as lh
+import os_tools.FileHandler as fh
+import os_tools.LoggerHandler as lh
 
 
 ###########################################################################

@@ -1,17 +1,16 @@
 from distutils.core import setup
 
 setup(
-    name='os-android-package-name-changer',
+    name='os_android_package_name_changer',
     packages=['os_android_package_name_changer'],
-    version='1.04',
+    version='1.06',
     license='MIT',
     description='will change the package name of an android app programmatically (dynamically)',
     author='Oz Shabat',
     author_email='osfunapps@gmail.com',
-    url='https://github.com/osfunapps',
-    download_url='https://github.com/osfunapps/os-xcode-tools-py/archive/v1.01.tar.gz',
+    url='https://github.com/osfunapps/os-android-version-changer-py',
     keywords=['python', 'osfunapps', 'android', 'package', 'automation'],
-    install_requires=['ostools'],
+    install_requires=['os_tools'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',  # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
 
