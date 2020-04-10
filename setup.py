@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='os_android_package_name_changer',
     packages=['os_android_package_name_changer'],
-    version='1.06',
+    version='1.07',
     license='MIT',
     description='will change the package name of an android app programmatically (dynamically)',
     author='Oz Shabat',
