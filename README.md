@@ -12,11 +12,11 @@ Install via pip:
 From python:
     
     import os_android_package_name_changer.NameChanger as nc;
-    nc.run('path/to/android/project', 'com.new.packagename')
+    nc.change_package_name('path/to/android/project', 'com.new.packagename')
   
 From the command line:
 
-    python3 -c 'import os_android_package_name_changer.NameChanger as nc;nc.run("path/to/android/project", "com.new.packagename")'
+    python3 -c 'import os_android_package_name_changer.NameChanger as nc;nc.change_package_name("path/to/android/project", "com.new.packagename")'
 
 ## Licence
 MIT
